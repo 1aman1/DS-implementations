@@ -125,10 +125,9 @@ void queue::isempty() {
     cout << "QUEUE_NOT_EMPTY, size is " << size_fn() << "\n";
 }
 
-int main()
-{	
+int main() {	
 	queue runMyQueue;
 	runMyQueue.menu();
 	system("pause");
 	return 0;
-	}
+}
