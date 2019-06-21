@@ -1,4 +1,4 @@
-Node  *removeDuplicates(Node *root) {
+Node *removeDuplicates(Node *root) {
 	Node* tmp = root;
   Node* Del;
   while( tmp->next != NULL ) {
