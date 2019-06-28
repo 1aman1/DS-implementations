@@ -23,15 +23,14 @@ int main() {
   Mystack.empty() == true ?   cout << " is " : cout << " is not ";
   cout << "empty" << endl;
 
-  cout << "stack size is : " << Mystack.size()  << endl;
-
+	cout << "stack size is : " << Mystack.size()  << endl;
 	cout << "\nstack top is " << Mystack.top()  << endl;
-
+	
 	Mystack.pop();		//since it has no return type
 	Mystack.pop();		//since it has no return type
-
+	
   cout << "popped few elements" << endl;
-  cout << "stack top is " << Mystack.top() << endl;
+	cout << "stack top is " << Mystack.top() << endl;
 
   //system("pause");
 	return 0;
